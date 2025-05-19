@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KyleLabs | Futuristic Design Agency</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <!-- Dark/Light Mode Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <span class="ball"></span>
+        </label>
+    </div>
+
+    <!-- Mobile Navigation Hamburger -->
+    <div class="mobile-nav-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Right-Aligned Navigation (Desktop) -->
+    <nav class="right-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation (Hidden by default) -->
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Slider (Now with Gradient Overlay) -->
+    <section id="home" class="hero">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+                <div class="gradient-overlay"></div>
+                <div class="slide-content">
+                    <img src="assets/logo.png" height="350px">
+                    <h1>Innovative <span>Branding</span></h1>
+                    <p>We craft unforgettable visual identities.</p>
+                    <a href="#portfolio" class="btn">Explore Work</a>
+                </div>
+            </div>
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+                <div class="gradient-overlay"></div>
+                <div class="slide-content">
+                    <img src="assets/logo.png" height="350px">
+                    <h1>Innovative <span>Branding</span></h1>
+                    <p>We craft unforgettable visual identities.</p>
+                    <a href="#portfolio" class="btn">Explore Work</a>
+                </div>
+            </div>
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+                <div class="gradient-overlay"></div>
+                <div class="slide-content">
+                    <img src="assets/logo.png" height="350px">
+                    <h1>Innovative <span>Branding</span></h1>
+                    <p>We craft unforgettable visual identities.</p>
+                    <a href="#portfolio" class="btn">Explore Work</a>
+                </div>
+            </div>
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+                <div class="gradient-overlay"></div>
+                <div class="slide-content">
+                    <img src="assets/logo.png" height="350px">
+                    <h1>Innovative <span>Branding</span></h1>
+                    <p>We craft unforgettable visual identities.</p>
+                    <a href="#portfolio" class="btn">Explore Work</a>
+                </div>
+            </div>
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+                <div class="gradient-overlay"></div>
+                <div class="slide-content">
+                    <img src="assets/logo.png" height="350px">
+                    <h1>Innovative <span>Branding</span></h1>
+                    <p>We craft unforgettable visual identities.</p>
+                    <a href="#portfolio" class="btn">Explore Work</a>
+                </div>
+            </div>
+            <!-- More slides... -->
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our <span>Work</span></h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Branding Project">
+                <div class="portfolio-overlay">
+                    <h3>Neon Branding</h3>
+                    <p>Logo & Identity</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Web Design">
+                <div class="portfolio-overlay">
+                    <h3>Cyberpunk UI</h3>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Motion Graphics">
+                <div class="portfolio-overlay">
+                    <h3>3D Animation</h3>
+                    <p>Motion Design</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Motion Graphics">
+                <div class="portfolio-overlay">
+                    <h3>3D Animation</h3>
+                    <p>Motion Design</p>
+                </div>
+            </div>
+            <!-- More items... -->
+        </div>
+    </section>
+
+    <!-- Team Section (Updated with 5 Cards) -->
+    <section id="team" class="team">
+        <h2>Meet the <span>Team</span></h2>
+        <div class="team-grid">
+            <!-- Card 1 -->
+            <div class="team-card">
+                <div class="team-card-inner">
+                    <div class="team-card-front" style="background-image: url('assets/kyle.jpg');">
+                        <!-- Image covers entire card -->
+                    </div>
+                    <div class="team-card-back">
+                        <h3>Kyle Sinclair</h3>
+                        <p class="role">Creative Director</p>
+                        <div class="skills">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>Brand Strategy</li>
+                                <li>Art Direction</li>
+                                <li>3D Design</li>
+                                <li>Dooshbag</li>
+                            </ul>
+                        </div>
+                        <div class="contact-links">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="team-card">
+                <div class="team-card-inner">
+                    <div class="team-card-front" style="background-image: url('assets/mod.jpg');">
+                    </div>
+                    <div class="team-card-back">
+                        <h3>Mordecai Mwambe</h3>
+                        <p class="role">UI/UX Designer</p>
+                        <div class="skills">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>Figma Prototyping</li>
+                                <li>User Research</li>
+                                <li>Interaction Design</li>
+                            </ul>
+                        </div>
+                        <div class="contact-links">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="team-card">
+                <div class="team-card-inner">
+                    <div class="team-card-front" style="background-image: url('assets/martha.jpg');">
+                    </div>
+                    <div class="team-card-back">
+                        <h3>Martha Wella</h3>
+                        <p class="role">Human Resources</p>
+                        <div class="skills">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>Figma Prototyping</li>
+                                <li>User Research</li>
+                                <li>Interaction Design</li>
+                                <li>Can't seem to get rid of her</li>
+                            </ul>
+                        </div>
+                        <div class="contact-links">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="team-card">
+                <div class="team-card-inner">
+                    <div class="team-card-front" style="background-image: url('assets/ellen.jpg');">
+                    </div>
+                    <div class="team-card-back">
+                        <h3>Sarah Lin</h3>
+                        <p class="role">UI/UX Designer</p>
+                        <div class="skills">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>Figma Prototyping</li>
+                                <li>User Research</li>
+                                <li>Interaction Design</li>
+                            </ul>
+                        </div>
+                        <div class="contact-links">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="team-card">
+                <div class="team-card-inner">
+                    <div class="team-card-front" style="background-image: url('assets/joe.jpg');">
+                    </div>
+                    <div class="team-card-back">
+                        <h3>Joseph Wella</h3>
+                        <p class="role">Certified Legend</p>
+                        <div class="skills">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>Figma Prototyping</li>
+                                <li>User Research</li>
+                                <li>Interaction Design</li>
+                            </ul>
+                        </div>
+                        <div class="contact-links">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in <span>Touch</span></h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your Project Details" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 KyleLabs. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
